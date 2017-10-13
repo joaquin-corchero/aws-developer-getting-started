@@ -12,3 +12,4 @@ Followed with windows
 3. Open `Access Key` menu options
 4. Create new access key (the key can only be downloaded once so save it)
 5. On command line `aws configure` and follow the instructions
+6. `aws ec2 describe-instances` to test, you should get and empty list
