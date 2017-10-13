@@ -69,3 +69,8 @@ Methods to control permissions:
 - Resouce: specific resource user can perform action on
 
 There are precreated policies but you can create your own policies.
+
+1. `Services` - `(IAM) Identity & Access Management` - Policies
+2. Have a look at some of the policies (json) to explore
+
+
