@@ -55,9 +55,17 @@ Methods to control permissions:
  - Got to `Services` -  `IAM` to see the dashboard.
 
 
- ####Securing the account:####
+ ####Securing the account:
  Root account (one that was created when the account was opened) need to be protected:
  1. Multifactor authentication: setup MFA from the dashboard.
  2. Sign out and try to sign in again.
 
+###Policies
+- You should at least assign a Policy to a user, by user or by role.
 
+####Policy Statement properties
+- Effects: allow/deny
+- Action: operation that the user can perform on a service
+- Resouce: specific resource user can perform action on
+
+There are precreated policies but you can create your own policies.
