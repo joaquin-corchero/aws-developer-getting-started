@@ -46,6 +46,18 @@ The main structure on SNS is the Topic, used to create a unique amazon resource 
 6. On actions select State alarm and teh name of the SNS Topic created.
 7. The alarm should have been created, from now on you will be notified if the alarm is triggered.
 
-###IAM (Identity Access Management service)
+###IAM (Identity & Access Management service)
 
-Access policies.
+Setup access policies on the AWS account.
+
+Methods to control permissions:
+ - Policies: rules to access a service by users/groups.
+ - Got to `Services` -  `IAM` to see the dashboard.
+
+
+ ####Securing the account:####
+ Root account (one that was created when the account was opened) need to be protected:
+ 1. Multifactor authentication: setup MFA from the dashboard.
+ 2. Sign out and try to sign in again.
+
+
