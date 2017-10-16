@@ -1,9 +1,5 @@
 ## Gettign Inside the Virtual Machine with EC2 and VPC
 
-### EC2 (Elastic Cloud Compute)
-Virtual machine service that runs software of your choice.
-
-
 ### VPC (Virtual Private Cloud)
 Adds layer of security separating your resources from the others.
 - Resources get private IP addresses.
@@ -20,3 +16,10 @@ Simple VPC with 2 Subnets.
 - Create a VPC from the Services menu (includes creation of a Subnet)
 - Go to the Route Table for the PVC created, create a new route with Destination 0.0.0.0/0 this creates a route to let outgoing traffic get to the outside world.
 - Create Subnet with different IPV4, if first one was 10.0.0.0/24 new one will be 10.0.1.0/24 so we get another 255 IP addresses.
+
+### EC2 (Elastic Cloud Compute)
+Virtual machine service that runs software of your choice.
+AMI: operatinc system + software installed on EC2 marketplace.
+
+#### Creating an EC2 instance
+Follow the wizard, adding settings so the instance can be accessed through http on the correct port.
