@@ -1,7 +1,7 @@
 # Aws Developer getting started
 Followed with windows
 
-## Configurin environment
+## Configuring environment
 
 ### Installing the CLI
 
@@ -71,3 +71,11 @@ There are precreated policies but you can create your own policies.
 
 1. `Services` - `(IAM) Identity & Access Management` - Policies
 2. Have a look at some of the policies (json) to explore
+
+#### Securing the account:
+Amazon doesn't recommend to access your account with the account that was created.
+1. Create new user.
+2. Create new group with appropiate permissions
+3. Assign group to user
+4. Setup expiration password policy
+5. On the dashboard there is a link that you can copy in order to login into your app with the user created
